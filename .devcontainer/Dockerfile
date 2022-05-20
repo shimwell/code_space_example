@@ -1,2 +1,0 @@
-
-FROM mcr.microsoft.com/vscode/devcontainers/miniconda:0-3
