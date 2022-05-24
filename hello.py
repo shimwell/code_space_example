@@ -70,7 +70,7 @@ tallies.append(tbr_tally)
 
 
 odd.just_in_time_library_generator(
-    libraries='ENDFB-7.1-NNDC',
+    libraries=['ENDFB-7.1-NNDC', 'TENDL-2019'],
     materials=mats
 )
 
