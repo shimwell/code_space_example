@@ -9,6 +9,6 @@ RUN pip install neutronics_material_maker \
                 openmc_data \
                 openmc_data_downloader
 
-RUN download_nndc
+# RUN download_nndc results in no space left on device
 
-ARG OPENMC_CROSS_SECTIONS=/nndc-b7.1-hdf5/endfb71_hdf5/cross_sections.xml
+# ENV OPENMC_CROSS_SECTIONS=/nndc-b7.1-hdf5/endfb71_hdf5/cross_sections.xml
